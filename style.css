@@ -1,0 +1,78 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.item {
+    display: flex;
+    border-radius: 20%;
+    background-color:white;
+
+
+}
+.header{
+    display: flex;
+    position: relative;
+    color: aliceblue;
+
+}
+
+.header h1{
+    font-family: sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+.header h2{
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+.ham {
+    font-family: sans-serif;
+    position: absolute;
+    top: -2%;
+    left: 1%;  
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-family: sans-serif;
+    position: absolute;
+    top: -2%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+}
+
+.link {
+    font-family: sans-serif;
+    position: absolute;
+    top: -2%;
+    left: 98%;  
+    transform: translate(-50%, -50%);
+}
+
+.rectangle {
+    height: 30px;
+    width: 1887px;
+    background-color:black;
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    font-family: sans-serif;
+    position: absolute;
+    left: 25%;  
+    transform: translate(-50%, -50%);
+}
